@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>PRODUCT LIST</h1>
+    </header>
+
+    <section id="filter-section">
+        <label for="priceFilter">Filter by Price:</label>
+        <select id="priceFilter">
+            <option value="all">All</option>
+            <option value="0-50">$0 - $50</option>
+            <option value="50-100">$50 - $100</option>
+            <option value="100-">Above $100</option>
+        </select>
+    </section>
+    <main id="product-container">
+    </main>
+    <script src = "script.js"></script>
+</body>
+</html>
